@@ -172,7 +172,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -4.7723494}
+  m_Offset: {x: 0, y: -6.2429156}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -183,7 +183,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 10.544699}
+  m_Size: {x: 1, y: 13.485831}
   m_EdgeRadius: 0
 --- !u!4 &23482366
 Transform:
@@ -9870,7 +9870,8 @@ GameObject:
   m_Component:
   - component: {fileID: 629514118}
   - component: {fileID: 629514117}
-  m_Layer: 0
+  - component: {fileID: 629514119}
+  m_Layer: 6
   m_Name: brickwall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9907,9 +9908,9 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -4.7723494}
+  m_Offset: {x: 0, y: -0.0392828}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9920,7 +9921,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 10.544699}
+  m_Size: {x: 1, y: 1.0785656}
   m_EdgeRadius: 0
 --- !u!4 &629514118
 Transform:
@@ -9931,12 +9932,31 @@ Transform:
   m_GameObject: {fileID: 629514116}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.5, y: -9.1, z: -21.375385}
+  m_LocalPosition: {x: -38.5, y: -8.6, z: -21.375385}
   m_LocalScale: {x: 27.98315, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &629514119
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629514116}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &636193639
 GameObject:
   m_ObjectHideFlags: 0
@@ -14997,7 +15017,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1955851364}
   - component: {fileID: 1955851363}
-  m_Layer: 0
+  - component: {fileID: 1955851365}
+  m_Layer: 6
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15064,6 +15085,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!251 &1955851365
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955851362}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &2048607178
 GameObject:
   m_ObjectHideFlags: 0
@@ -15156,6 +15196,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2874034771668635648, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
+      propertyPath: jumpForce
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874034771668635648, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
+      propertyPath: jumpableGround.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 3561655478374537631, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
       propertyPath: m_BackGroundColor.b
       value: 0.909804
