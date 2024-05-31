@@ -8,13 +8,6 @@ public class taloAudio : MonoBehaviour
 
     private void OnMouseDown()
     {
-       
-            AudioSource.PlayClipAtPoint(_clip, transform.position);
-        
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        AudioSource.PlayClipAtPoint(_clip, transform.position);
+    }    
 }
