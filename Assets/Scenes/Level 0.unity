@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 105702022}
   - component: {fileID: 105702021}
   - component: {fileID: 105702023}
+  - component: {fileID: 105702024}
   m_Layer: 6
   m_Name: house talo
   m_TagString: Untagged
@@ -333,7 +334,104 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d821ab0a1c7769b479c29bfbbd1c3ba1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clip: {fileID: 8300000, guid: e417d24630a7a7141bb372b111793903, type: 3}
+  source: {fileID: 105702024}
+  clip: {fileID: 8300000, guid: e417d24630a7a7141bb372b111793903, type: 3}
+--- !u!82 &105702024
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105702017}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 46dbfe697d85e7643b50b18d924bca14, type: 2}
+  m_audioClip: {fileID: 8300000, guid: e417d24630a7a7141bb372b111793903, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &201428211
 GameObject:
   m_ObjectHideFlags: 0
@@ -15010,6 +15108,8 @@ GameObject:
   - component: {fileID: 1076185660}
   - component: {fileID: 1076185663}
   - component: {fileID: 1076185662}
+  - component: {fileID: 1076185665}
+  - component: {fileID: 1076185664}
   m_Layer: 0
   m_Name: cat door
   m_TagString: Untagged
@@ -15141,34 +15241,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04bc2b31ae0ff9f4bb9958b103cdf30c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1085438391
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1085438393}
-  - component: {fileID: 1085438392}
-  m_Layer: 0
-  m_Name: talo audio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &1085438392
+--- !u!82 &1076185664
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085438391}
+  m_GameObject: {fileID: 1076185659}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 46dbfe697d85e7643b50b18d924bca14, type: 2}
-  m_audioClip: {fileID: 8300000, guid: e417d24630a7a7141bb372b111793903, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 55fd2b06ddf0ef14f9f7c8e9f53118fc, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -15181,7 +15264,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -15254,21 +15337,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &1085438393
-Transform:
+--- !u!114 &1076185665
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085438391}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.883256, y: -12.15657, z: -32.074627}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 1076185659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d821ab0a1c7769b479c29bfbbd1c3ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1076185664}
+  clip: {fileID: 8300000, guid: 55fd2b06ddf0ef14f9f7c8e9f53118fc, type: 3}
 --- !u!1 &1955851362
 GameObject:
   m_ObjectHideFlags: 0
@@ -15546,4 +15628,3 @@ SceneRoots:
   - {fileID: 23482366}
   - {fileID: 1955851364}
   - {fileID: 105702020}
-  - {fileID: 1085438393}
