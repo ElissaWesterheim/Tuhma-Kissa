@@ -4,6 +4,8 @@ using System.Data.Common;
 using UnityEditor.Callbacks;
 using UnityEngine;
 
+//majority of this code is from the following Youtube channel: https://www.youtube.com/watch?v=J77CMuAwVDY&list=PLrnPJCHvNZuCVTz6lvhR81nnaf1a-b67U&index=11
+//The playlist for this tutorial is currently Unlisted on YT.
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
@@ -15,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private AudioSource jumpSFX;
 
     // Start is called before the first frame update
     private void Start()
@@ -33,7 +36,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-        rb.velocity =  new Vector2(rb.velocity.x, jumpForce);
+            jumpSFX.Play();
+            rb.velocity =  new Vector2(rb.velocity.x, jumpForce);
+        
         }
 
         UpdateAnimationState();

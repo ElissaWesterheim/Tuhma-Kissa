@@ -257,6 +257,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20799266}
   m_CullTransparentMesh: 1
+--- !u!82 &184233601 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 725230907626712384, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
+  m_PrefabInstance: {fileID: 1845031862}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &257807600
 GameObject:
   m_ObjectHideFlags: 0
@@ -3836,6 +3841,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 725230907626712384, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 46dbfe697d85e7643b50b18d924bca14, type: 2}
+    - target: {fileID: 2874034771668635648, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
+      propertyPath: jumpSFX
+      value: 
+      objectReference: {fileID: 184233601}
     - target: {fileID: 2874034771668635648, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
       propertyPath: jumpableGround.m_Bits
       value: 64
