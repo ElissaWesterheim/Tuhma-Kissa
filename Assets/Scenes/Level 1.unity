@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 211035668}
   m_Layer: 0
   m_Name: pillows
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -366,7 +366,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.86272573, y: -0.30007553}
@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 583597135}
   m_Layer: 0
   m_Name: rug
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -870,7 +870,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.02844143, y: -1.0245054}
@@ -1173,7 +1173,7 @@ GameObject:
   - component: {fileID: 644614909}
   m_Layer: 0
   m_Name: frame
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1317,7 +1317,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.13188934, y: 0.07913184}
@@ -1415,7 +1415,7 @@ GameObject:
   - component: {fileID: 662111838}
   m_Layer: 0
   m_Name: curtains
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1559,7 +1559,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.45780277, y: -1.1445084}
@@ -1642,6 +1642,134 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1604075092}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &685577906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 685577908}
+  - component: {fileID: 685577907}
+  m_Layer: 0
+  m_Name: Treat Pickup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &685577907
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685577906}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 46dbfe697d85e7643b50b18d924bca14, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 19f89c6e740e7447f9e12a8310d3e973, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &685577908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685577906}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.793541, y: 8.997284, z: 13.176145}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &700734177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1657,7 +1785,7 @@ GameObject:
   - component: {fileID: 700734178}
   m_Layer: 0
   m_Name: vase
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1801,7 +1929,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.27189684, y: -1.4584805}
@@ -1899,7 +2027,7 @@ GameObject:
   - component: {fileID: 737324352}
   m_Layer: 0
   m_Name: swipe huitaista
-  m_TagString: Untagged
+  m_TagString: Verb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2043,7 +2171,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0000019073486, y: -0.7782631}
@@ -2141,7 +2269,7 @@ GameObject:
   - component: {fileID: 746351887}
   m_Layer: 0
   m_Name: door
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2285,7 +2413,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.045780182, y: -0.36624146}
@@ -3024,6 +3152,114 @@ Transform:
   - {fileID: 1217853099}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1232694150
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1235464022826282506, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3937175642100960741, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+--- !u!114 &1232694151 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2547971663827914976, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+  m_PrefabInstance: {fileID: 1232694150}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1277286767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3123,7 +3359,7 @@ GameObject:
   - component: {fileID: 1348062465}
   m_Layer: 0
   m_Name: fish
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3267,7 +3503,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.37079096, y: -0.98880005}
@@ -3450,7 +3686,7 @@ GameObject:
   - component: {fileID: 1589597839}
   m_Layer: 0
   m_Name: fishbowl
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3594,7 +3830,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.37079096, y: -0.98880005}
@@ -3685,6 +3921,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2533148077013255143, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
+      propertyPath: verbText
+      value: 
+      objectReference: {fileID: 1232694151}
+    - target: {fileID: 2533148077013255143, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
+      propertyPath: collectibleSFX
+      value: 
+      objectReference: {fileID: 685577907}
+    - target: {fileID: 2533148077013255143, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
+      propertyPath: treatsTotalText
+      value: 
+      objectReference: {fileID: 1698635230}
     - target: {fileID: 2874034771668635648, guid: 385eeecfd0317974e9493201dc027c48, type: 3}
       propertyPath: jumpForce
       value: 15
@@ -3969,7 +4217,7 @@ GameObject:
   - component: {fileID: 1685982013}
   m_Layer: 0
   m_Name: sofa
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4113,7 +4361,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.86272573, y: -0.30007553}
@@ -4196,6 +4444,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1604075092}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1698635230 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8499612406224366274, guid: 8af85e06f00d959468b01122ca9f0d96, type: 3}
+  m_PrefabInstance: {fileID: 1232694150}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1759034576
 GameObject:
   m_ObjectHideFlags: 0
@@ -4295,7 +4554,7 @@ GameObject:
   - component: {fileID: 1810870391}
   m_Layer: 0
   m_Name: glass
-  m_TagString: Untagged
+  m_TagString: Treat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4439,7 +4698,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.30386877, y: -1.2806543}
@@ -4782,7 +5041,7 @@ GameObject:
   - component: {fileID: 2082917060}
   m_Layer: 0
   m_Name: scratch raapia
-  m_TagString: Untagged
+  m_TagString: Verb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4926,7 +5185,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0000019073486, y: -0.7782631}
@@ -5073,6 +5332,7 @@ SceneRoots:
   - {fileID: 245938161}
   - {fileID: 593703073}
   - {fileID: 957019254}
+  - {fileID: 1232694150}
   - {fileID: 1117916366}
   - {fileID: 1602158815}
   - {fileID: 1218472465}
@@ -5090,3 +5350,4 @@ SceneRoots:
   - {fileID: 592658009}
   - {fileID: 1604075092}
   - {fileID: 214081420}
+  - {fileID: 685577908}

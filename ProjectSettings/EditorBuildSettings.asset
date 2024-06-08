@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Game.unity
     guid: 8d46bad6ae6cf244b96ecdbb36553523
   - enabled: 1
+    path: Assets/Scenes/Jump Minigame.unity
+    guid: 4520b136da144f14492fca68d6002723
+  - enabled: 1
     path: Assets/Scenes/Level 0.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -18,8 +21,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: 11bf41966f8c23c498c1736f07fb1d2e
   - enabled: 1
-    path: Assets/Scenes/Jump Minigame.unity
-    guid: 4520b136da144f14492fca68d6002723
+    path: Assets/Scenes/Scratch Minigame.unity
+    guid: 0fea45000797fe2459eb3c713cb5b233
+  - enabled: 1
+    path: Assets/Scenes/Swipe Minigame.unity
+    guid: c16cfa1a62c97ae4580f2fb6e94251fc
+  - enabled: 1
+    path: Assets/Scenes/Roll Minigame.unity
+    guid: 7177d892d2a587f48a56b65df9c920c6
   - enabled: 1
     path: Assets/Scenes/Sleep Minigame.unity
     guid: 94543c5aa3b6e4e4e864b18dce12e66c

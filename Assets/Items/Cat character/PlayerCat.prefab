@@ -121,6 +121,7 @@ GameObject:
   - component: {fileID: 2874034771668635648}
   - component: {fileID: 3593808317006506307}
   - component: {fileID: 725230907626712384}
+  - component: {fileID: 2533148077013255143}
   m_Layer: 0
   m_Name: PlayerCat
   m_TagString: Untagged
@@ -403,3 +404,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2533148077013255143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5930306385222493230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e578829a25c2684c84abc471af5ed78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treatsTotalText: {fileID: 0}
