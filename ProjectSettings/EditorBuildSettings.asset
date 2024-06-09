@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Game.unity
     guid: 8d46bad6ae6cf244b96ecdbb36553523
   - enabled: 1
+    path: Assets/Scenes/Sliders.unity
+    guid: 591d2271fbc71a84f891314f4a434213
+  - enabled: 1
     path: Assets/Scenes/Jump Minigame.unity
     guid: 4520b136da144f14492fca68d6002723
   - enabled: 1
