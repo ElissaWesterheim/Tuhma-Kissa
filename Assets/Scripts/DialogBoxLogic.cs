@@ -7,16 +7,12 @@ using Unity.VisualScripting;
 
 public class DialogBoxLogic : MonoBehaviour
 {
-   // public string popUp;
+    public string popUp;
      
     void Update()
     {
-        //OnMouseDown();        
+    popUpWindow popsUp = GameObject.FindGameObjectWithTag("Verb").GetComponent<popUpWindow>();
+    popsUp.PopUp(popUp);
     }
-
-   // void OnMouseDown()
-   // {
-       // popUpWindow popsUp = GameObject.FindGameObjectWithTag("Verb").GetComponent<popUpWindow>();
-       // popsUp.PopUp(popUp);
-    //}
+    
 }
