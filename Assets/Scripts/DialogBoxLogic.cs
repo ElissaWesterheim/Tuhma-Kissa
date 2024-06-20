@@ -11,8 +11,9 @@ public class DialogBoxLogic : MonoBehaviour
      
     void Update()
     {
-    popUpWindow popsUp = GameObject.FindGameObjectWithTag("Verb").GetComponent<popUpWindow>();
-    popsUp.PopUp(popUp);
+        Debug.Log("dialog box update");
+        popUpWindow popsUp = GameObject.FindGameObjectWithTag("Verb").GetComponent<popUpWindow>();
+        popsUp.PopUp(popUp);
     }
     
 }

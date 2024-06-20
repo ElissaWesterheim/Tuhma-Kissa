@@ -12,6 +12,7 @@ public class popUpWindow : MonoBehaviour
 
     public void PopUp(string text)
     {
+        Debug.Log("popUpWindow");
         popUpBox.SetActive(true);
         popUptext.text = text;
         animator.SetTrigger("popsUp"); 
