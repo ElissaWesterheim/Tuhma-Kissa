@@ -17,10 +17,10 @@ public class AudioSettings : MonoBehaviour
         {
             LoadVolume();
         }
-        else
-        {
-            SetMusicVolume();
-        }
+        //else
+        //{
+           // SetMusicVolume();
+        //}
     }
     public void SetMusicVolume()
     {
