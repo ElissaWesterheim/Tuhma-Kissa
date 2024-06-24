@@ -5978,10 +5978,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2082917059}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ddbaec844174d6479d9d6d950b3dcbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 74b9cb7225a0a8547a2e2375911baed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Scratch Minigame
+  DialogueText: {fileID: 0}
+  Sentences:
+  - Raapia means "scratch".
+  - Click the paw for a minigame to learn the conjugations for  "raapia".
+  DialogueSpeed: 0
+  animator: {fileID: 0}
 --- !u!1001 &4189521396959959158
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ public class DialogBoxLogic : MonoBehaviour
     {
         Debug.Log("dialog box update");
         popUpWindow popsUp = GameObject.FindGameObjectWithTag("Verb").GetComponent<popUpWindow>();
-        popsUp.PopUp(popUp);
+        //popsUp.popUpWindow(popUp);
     }
     
 }
