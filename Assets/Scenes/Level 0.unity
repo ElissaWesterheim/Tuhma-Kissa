@@ -18469,7 +18469,7 @@ GameObject:
   - component: {fileID: 1661536524}
   - component: {fileID: 1661536523}
   m_Layer: 5
-  m_Name: Canvas Jump
+  m_Name: Button Jump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
