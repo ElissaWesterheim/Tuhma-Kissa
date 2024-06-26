@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 //code used is from this youtube video: https://www.youtube.com/watch?v=hvgfFNorZH8&t=269s
 
@@ -15,24 +16,28 @@ public class popUpWindow : MonoBehaviour
     public float DialogueSpeed;
     public Animator animator;
     private bool StartDialogue = true;
+    public Button button;
     
-
-    void Update()
+    void Start()
     {
-        if(Input.GetMouseButtonDown(0))
-        {
-            if (StartDialogue)
+         button = GetComponent<Button>();
+         button.onClick.AddListener(TaskOnClick);
+    }
+    void TaskOnClick()
+    {
+        //Output this to console when Button1 or Button3 is clicked
+        Debug.Log("You have clicked the button!");
+        if (StartDialogue)
             {
                 animator.SetTrigger("popsUp");
                 StartDialogue = false;
             }
-            else
-            {
-                NextSentence();
-            }
-            
+        else
+        {
+            NextSentence();
         }
     }
+   
 
     void NextSentence()
     {

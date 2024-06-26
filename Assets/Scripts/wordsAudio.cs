@@ -10,5 +10,6 @@ public class wordsAudio : MonoBehaviour
     public void OnMouseDown()
     {
         source.PlayOneShot(clip);
-    }    
+    }  
+      
 }
