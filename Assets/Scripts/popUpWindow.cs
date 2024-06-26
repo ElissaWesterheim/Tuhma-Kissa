@@ -5,6 +5,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 //code used is from this youtube video: https://www.youtube.com/watch?v=hvgfFNorZH8&t=269s
 
@@ -17,6 +18,8 @@ public class popUpWindow : MonoBehaviour
     public Animator animator;
     private bool StartDialogue = true;
     public Button button;
+    public AudioSource source;
+    public AudioClip clip;
     
     void Start()
     {
@@ -25,12 +28,14 @@ public class popUpWindow : MonoBehaviour
     }
     void TaskOnClick()
     {
-        //Output this to console when Button1 or Button3 is clicked
+        source.PlayOneShot(clip);
         Debug.Log("You have clicked the button!");
         if (StartDialogue)
             {
+                
                 animator.SetTrigger("popsUp");
                 StartDialogue = false;
+
             }
         else
         {
