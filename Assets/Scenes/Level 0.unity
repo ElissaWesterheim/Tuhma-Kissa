@@ -19040,7 +19040,7 @@ GameObject:
   - component: {fileID: 408767545689121114}
   - component: {fileID: 6121238503587869018}
   m_Layer: 5
-  m_Name: Dialog Box
+  m_Name: VerbDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19452,7 +19452,7 @@ Animator:
   m_GameObject: {fileID: 1099187871838215820}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 74bdbdf5c35cbb8439139b9ea716a864, type: 2}
+  m_Controller: {fileID: 9100000, guid: 53e1d90bc5d200c409018244fde98cef, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
