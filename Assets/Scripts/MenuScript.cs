@@ -17,9 +17,4 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    public void LoadExistingScene(string sceneExists)
-    {
-        //playerPrefs.SetInt 
-        //something about changing from bool to int. t/f if treat/verb has been collected.
-    }
 }
