@@ -30,14 +30,10 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             verb++;
-            //ChangeScene();
             verbText.text = "Verbs learned: " + verb;
             collectibleSFX.Play();
         }
     }
 
-   // public void ChangeScene(string sceneName)
-   // {
-    //    SceneManager.LoadScene(sceneName);
-   // }
+ 
 }
