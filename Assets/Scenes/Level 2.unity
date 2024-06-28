@@ -4095,7 +4095,7 @@ MonoBehaviour:
   DialogueText: {fileID: 1037445057}
   Sentences:
   - Hana
-  - (faucet)
+  - (faucet/tap)
   DialogueSpeed: 0.0005
   animator: {fileID: 44919060}
   button: {fileID: 0}
