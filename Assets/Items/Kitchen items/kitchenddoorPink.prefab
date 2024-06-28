@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8219876284520815154}
   - component: {fileID: 4402237045604930973}
   - component: {fileID: 4377954952638306229}
-  - component: {fileID: 46383343055278291}
+  - component: {fileID: 7418346022707545178}
   m_Layer: 0
   m_Name: kitchenddoorPink
   m_TagString: Untagged
@@ -215,7 +215,7 @@ PolygonCollider2D:
       - {x: 5.981792, y: -12.419712}
       - {x: 5.96876, y: -11.442295}
   m_UseDelaunayMesh: 0
---- !u!114 &46383343055278291
+--- !u!114 &7418346022707545178
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -224,6 +224,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7834205507860663152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04bc2b31ae0ff9f4bb9958b103cdf30c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ddbaec844174d6479d9d6d950b3dcbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: Level 2
