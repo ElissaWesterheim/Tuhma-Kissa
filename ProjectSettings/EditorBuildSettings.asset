@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sliders Sleep.unity
     guid: d1fb80b1f878fa34ba9691a1edae3152
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: 02d185b64c967054daa52d2da225afeb
   m_configObjects: {}
