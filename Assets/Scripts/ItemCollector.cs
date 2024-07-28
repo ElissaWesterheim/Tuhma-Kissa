@@ -7,12 +7,13 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEditor;
 
+//majority of this code is from the following Youtube channel: https://www.youtube.com/watch?v=J77CMuAwVDY&list=PLrnPJCHvNZuCVTz6lvhR81nnaf1a-b67U&index=11
+//The playlist for this tutorial is currently Unlisted on YT.
 public class ItemCollector : MonoBehaviour
 {
     private int treat = 0;
     private int verb = 0;
     
-    //[SerializeField] private string sceneName = "Jump minigame";
     [SerializeField] private AudioSource collectibleSFX;
     [SerializeField] private TMP_Text treatsTotalText;
     [SerializeField] private TMP_Text verbText;
